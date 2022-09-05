@@ -6,7 +6,7 @@ export default function NovaHvulya() {
     <section className="organizations__container" id="nh">
     <div className="organizations__logo" style={{backgroundImage:`url(${nova_hvulya_logo})`}}></div>
       <div className="organizations__content">
-        <h1 className="organizations__title">ГО «Нова Хвиля»</h1>
+        <h1 className="organizations__title" data-type="#ГО">Нова Хвиля</h1>
         <p className="organizations__description">
         Олександрійська громадська міська організація «Нова Хвиля» була створена у 2010 році і активно діє до сьогоднішнього дня.
         </p>

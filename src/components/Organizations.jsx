@@ -6,6 +6,8 @@ import ChasDobra from "./organizations list/ChasDobra";
 import NovaHvulya from "./organizations list/NovaHvula";
 import Yvs from "./organizations list/Yvs";
 import Parlam from "./organizations list/Parlam";
+import Cran from "./organizations list/Cran";
+import Molodrada from "./organizations list/Molodrada";
 
 export default function Organizations() {
   return (
@@ -18,6 +20,8 @@ export default function Organizations() {
         <NovaHvulya/>
         <Yvs/>
         <Parlam/>
+        <Cran/>
+        <Molodrada/>
     </section>
   );
 }

@@ -7,9 +7,11 @@ export default function ChasDobra(){
     return  <section className="organizations__container" id="chd">
     <div className="organizations__logo" style={{backgroundImage:`url(${chas_dobra_logo})`}}></div>
       <div className="organizations__content">
-        <h1 className="organizations__title">Час Добра</h1>
+        <h1 className="organizations__title" data-type="#ВО">Час Добра</h1>
         <p className="organizations__description">
-        Діяльність ВЦ "Час Добра" є унікальною і всеохоплюючою. За кожною групою волонтерів нашого центру закріплений окремий напрямок.
+        Діяльність ВЦ "Час Добра" є унікальною і всеохоплюючою. За кожною групою волонтерів нашого центру закріплений окремий напрямок. <br />
+        🏠 пр. Соборний, 54 <br />
+        🕰 Понеділок - Субота/10:00 - 15:00
         </p>
         <div className="organizations__call--container">
         <h3 className="organizations__call--title">

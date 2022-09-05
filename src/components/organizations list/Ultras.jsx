@@ -6,7 +6,7 @@ export default function Ultras() {
     <section className="organizations__container" id="ult">
     <div className="organizations__logo" style={{backgroundImage:`url(${ultras_logo})`}}></div>
       <div className="organizations__content">
-        <h1 className="organizations__title">Ультрас</h1>
+        <h1 className="organizations__title" data-type="#ГО">Ультрас</h1>
         <p className="organizations__description">
         Заснована в 2007-му році, спільнота олександрійських ультрас боронить Україну на передовій з 2014-го року
         </p>

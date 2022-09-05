@@ -6,7 +6,7 @@ export default function GoKultura() {
     <section className="organizations__container" id="go">
     <div className="organizations__logo" style={{backgroundImage:`url(${go_kultura_logo})`}}></div>
       <div className="organizations__content">
-        <h1 className="organizations__title">ГО Культура</h1>
+        <h1 className="organizations__title" data-type="#ГО">Культура</h1>
         <p className="organizations__description">
          У зв’язку з повномаштабним вторгненням ми радикалізуємось.
         </p>

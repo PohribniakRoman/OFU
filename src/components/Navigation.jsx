@@ -59,6 +59,18 @@ export default function Navigation() {
             }}>
                 Молодіжний парламент
             </li>
+            <li  className={isOpen?"navigation__modal--menu-item":"navigation__modal--menu-item hidden"} onClick={() => {
+                toOpen(!isOpen)
+                ScrollToElement("#cran");
+            }}>
+                Журавель
+            </li>
+            <li  className={isOpen?"navigation__modal--menu-item":"navigation__modal--menu-item hidden"} onClick={() => {
+                toOpen(!isOpen)
+                ScrollToElement("#rada");
+            }}>
+               Молодіжна рада
+            </li>
         </ul>
       </div>
       <section className="navigation">
@@ -80,7 +92,7 @@ export default function Navigation() {
             }}>Ультрас</div>
             <div className="navigation__list--item active" onClick={() => {
                 ScrollToElement("#go")
-            }}>ГО Культура</div>
+            }}>Культура</div>
             <div className="navigation__list--item active" onClick={() => {
                 ScrollToElement("#chd")
             }}>Час Добра</div>
@@ -93,6 +105,12 @@ export default function Navigation() {
             <div className="navigation__list--item active" onClick={() => {
                 ScrollToElement("#parl")
             }}>Молодіжний парламент</div>
+            <div className="navigation__list--item active" onClick={() => {
+                ScrollToElement("#cran")
+            }}>Журавель</div>
+            <div className="navigation__list--item active" onClick={() => {
+                ScrollToElement("#rada")
+            }}>Молодіжна рада</div>
           </div>
         </div>
       </section>

@@ -26,6 +26,13 @@
     font-size: 36px;
     position: relative;
     display: inline-block;
+    &::before{
+      content: attr(data-type);
+      font-size: 14px;
+      bottom: 100%;
+      color: rgb(173, 173, 173);
+      position: absolute;
+    }
     &::after {
       content: "";
       position: absolute;

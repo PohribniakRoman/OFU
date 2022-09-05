@@ -38,6 +38,10 @@
     .organizations__title::after{
         background-color: rgba(0, 0, 0, 0);
     }
+    .organizations__title::before{
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }
 @media (max-width:840px) {
     .organizations__logo{

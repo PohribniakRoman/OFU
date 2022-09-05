@@ -7,7 +7,7 @@ export default function Yvs() {
     <section className="organizations__container" id="yvs">
     <div className="organizations__logo" style={{backgroundImage:`url(${yvs_logo})`}}></div>
       <div className="organizations__content">
-        <h1 className="organizations__title">Українська Волонтерська Служба</h1>
+        <h1 className="organizations__title" data-type="#ВО">Українська Волонтерська Служба</h1>
         <p className="organizations__description">
         Громадська неприбуткова організація, яка з 2017 року розвиває культуру волонтерства та взаємодопомоги в Україні.
         </p>

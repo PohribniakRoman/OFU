@@ -2,12 +2,12 @@ import parlament_logo from "../../images/Parlament_logo.png"
 import Call from "../Call";
 import SocialLink from "../SocialLink";
 
-export default function Parlam() {
+export default function Molodrada() {
   return (
-    <section className="organizations__container" id="parl">
+    <section className="organizations__container" id="rada">
     <div className="organizations__logo" style={{backgroundImage:`url(${parlament_logo})`}}></div>
       <div className="organizations__content">
-        <h1 className="organizations__title" data-type="#ГО">Молодіжний парламент</h1>
+        <h1 className="organizations__title" data-type="#ГО">Молодіжна рада</h1>
         <p className="organizations__description">
         Активна, амбіційна молодь нашого міста, що хоче змінити життя. Якщо тобі не байдуже майбутнє Олександрії, тоді долучайся до нас!
         </p>
